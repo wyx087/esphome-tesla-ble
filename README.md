@@ -103,3 +103,4 @@ Tested with M5Stack NanoC6 and Tesla firmwares 2024.26.3.1.
 1. To verify the key was added, tap Controls > Locks, and you should see a new key named "Unknown device" in the list
 1. [optional] Rename your key to "ESPHome BLE" to make it easier to identify
     <img src="./docs/vehicle-locks.png" width="500">
+
