@@ -15,12 +15,16 @@ Tested with M5Stack NanoC6 and Tesla firmwares 2024.26.3.1.
 - [x] Set charging amps
 - [x] Set charging limit (percent)
 - [x] Turn on/off charging
+- [x] Turn on/off HVAC
+- [x] Turn on/off steering heat 
+- [x] Turn on/off Sentry mode
+- [x] Open/Close Charge Port Door
 - [x] BLE information sensors
   - [x] Asleep / awake
   - [x] Doors locked / unlocked
   - [x] User present / not present
   - [x] Charging flap open / closed (only when vehicle is awake)
-  - [x] BLE signal strength
+  - [x] BLE signal strength 
 
 ## Usage
 
@@ -29,6 +33,7 @@ Tested with M5Stack NanoC6 and Tesla firmwares 2024.26.3.1.
 ### Pre-requisites
 - Python 3.10+
 - GNU Make
+- Compatible ESP32 device
 
 ### Finding the BLE MAC address of your vehicle
 
