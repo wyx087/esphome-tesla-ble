@@ -3,6 +3,9 @@ substitutions:
   device_name: tesla-ble
   device_description: Interact with Tesla vehicles over BLE using ESPHome and Home Assistant
 
+external_components:
+  - source: ./custom_components
+
 packages:
   board: !include board.yml
   common: !include common.yml
