@@ -1,5 +1,5 @@
 substitutions:
-  espidf_version: "5.4.2"
+  espidf_version: "5.3.3"
   platformio_version: "6.11.0"
 
 esp32:
